@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {{ if eq .Site.Params.env "production" }}
-      <link rel="stylesheet" href="/assets/index.css">
+      <link rel="stylesheet" href="/assets/all.css">
     {{ end }}
     {{ .Site.Data.settings.faviconMetaTags | safeHTML }}
     {{ if isset .Params "seometatags" }}
