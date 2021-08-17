@@ -16,27 +16,9 @@ module.exports = {
   },
   module: {
     rules: [
-     {
-        test: /\.svg$/,
-        use: 'file-loader'
-      }
-    ]
-  },
-  module: {
-    rules: [
       {
         test: /.*\.sass$/,
         use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              // you can specify a publicPath here
-              // by default it uses publicPath in webpackOptions.output
-              publicPath: '../',
-              hmr: process.env.NODE_ENV === 'development',
-              exclude: /\.svg$/
-            },
-          },
           { loader: 'css-loader' },
           { loader: 'sass-loader' },
           { loader: 'import-glob-loader' }
