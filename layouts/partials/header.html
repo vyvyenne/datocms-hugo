@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= settings.language %>">
+<html lang="{{ .Site.Data.settings.defaultContentLanguage | safeHTML }}">
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
