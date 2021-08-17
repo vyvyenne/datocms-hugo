@@ -14,19 +14,6 @@ module.exports = {
     filename: '[name].js',
     publicPath: '/assets',
   },
-  exclude: {
-    test: [
-      /\.html$/,
-      /\.(js|jsx)$/,
-      /\.css$/,
-      /\.json$/,
-      /\.bmp$/,
-      /\.gif$/,
-      /\.jpe?g$/,
-      /\.png$/,
-      /\.svg$/,
-    ]
-  },
   module: {
     rules: [
       {
@@ -49,6 +36,19 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
+        exclude: {
+          test: [
+            /\.html$/,
+            /\.(js|jsx)$/,
+            /\.css$/,
+            /\.json$/,
+            /\.bmp$/,
+            /\.gif$/,
+            /\.jpe?g$/,
+            /\.png$/,
+            /\.svg$/,
+          ]
+        },
         use: [
           {
             loader: 'babel-loader',
