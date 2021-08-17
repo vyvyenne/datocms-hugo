@@ -14,14 +14,7 @@ module.exports = {
     filename: '[name].js',
     publicPath: '/assets',
   },
-  module: {
-    rules: [
-      {
-        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
-        type: "asset",
-      },
-    ],
-  },
+
   module: {
     rules: [
       {
@@ -43,6 +36,10 @@ module.exports = {
             }
           }
         ],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
+        type: "asset",
       }
     ]
   },
