@@ -18,7 +18,8 @@ module.exports = {
     rules: [
       {
         test: /\.svg/,
-        use: 'svgo-loader'
+        type: 'asset/resource',
+        publicPath: '../'
       },
       {
         test: /.*\.sass$/,
