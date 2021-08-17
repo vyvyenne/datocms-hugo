@@ -1,6 +1,6 @@
 {
   "name": "creative-inc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "imagesloaded": "^4.1.4",
-    "livereload": "0.8.2",
-    "lory.js": "2.5.3",
+    "livereload": "^0.8.2",
+    "lory.js": "^2.5.3",
     "masonry-layout": "^4.2.2",
     "scroll-lazy": "^1.0.3"
   },
@@ -37,5 +37,15 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "description": "This repo contains a working static website written with [Hugo](http://gohugo.io/), integrated with content coming from DatoCMS.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyvyenne/datocms-hugo.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/vyvyenne/datocms-hugo/issues"
+  },
+  "homepage": "https://github.com/vyvyenne/datocms-hugo#readme"
 }
