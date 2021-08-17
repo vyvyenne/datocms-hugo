@@ -10,10 +10,7 @@ Paginate = 5
   identifier = "home"
   url = "/"
 
-
-
 # datocms:start
-title = "Creative Inc."
+title = "Vivienne Must & other stories "
 languageCode = "en"
-defaultContentLanguage = 'en'
 # datocms:end
