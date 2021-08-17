@@ -15,4 +15,5 @@ Paginate = 5
 # datocms:start
 title = "Creative Inc."
 languageCode = "en"
+defaultContentLanguage = 'en'
 # datocms:end
