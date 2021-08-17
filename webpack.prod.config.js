@@ -20,7 +20,7 @@ module.exports = {
         test: /\.svg/,
         type: 'asset/resource',
         generator: {
-          filename: '/public/assets/[hash][ext][query]'
+          filename: 'public/assets/[hash][ext][query]'
         }
       },
       {
