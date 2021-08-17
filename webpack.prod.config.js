@@ -18,10 +18,7 @@ module.exports = {
     rules: [
       {
         test: /\.svg/,
-        type: 'asset/resource',
-        generator: {
-          filename: 'public/assets/[hash][ext][query]'
-        }
+        use: 'svgo-loader'
       },
       {
         test: /.*\.sass$/,
