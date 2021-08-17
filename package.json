@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "imagesloaded": "^4.1.4",
-    "livereload": "^0.8.2",
+    "livereload": "^0.9.3",
     "lory.js": "^2.5.3",
     "masonry-layout": "^4.2.2",
     "scroll-lazy": "^1.0.3",
@@ -37,7 +37,7 @@
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "webpack": "^5.5.0",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^3.11.0"
   },
   "description": "This repo contains a working static website written with [Hugo](http://gohugo.io/), integrated with content coming from DatoCMS.",
