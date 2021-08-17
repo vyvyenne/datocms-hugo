@@ -22,6 +22,7 @@
     "scroll-lazy": "^1.0.3"
   },
   "devDependencies": {
+    "node": "^16.6.1",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "babel-loader": "^8.2.2",
