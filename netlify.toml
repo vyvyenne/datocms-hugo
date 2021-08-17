@@ -4,3 +4,4 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "default-src https:; img-src 'self' https://www.datocms-assets.com https://cdn.rawgit.com; object-src 'none' script-src 'self'; style-src 'self'"
+    X-Content-Type-Options = "nosniff"
