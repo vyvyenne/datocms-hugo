@@ -34,6 +34,7 @@ module.exports = {
               // by default it uses publicPath in webpackOptions.output
               publicPath: '../',
               hmr: process.env.NODE_ENV === 'development',
+              exclude: /\.svg$/
             },
           },
           { loader: 'css-loader' },
