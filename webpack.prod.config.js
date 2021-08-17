@@ -16,6 +16,14 @@ module.exports = {
   },
   module: {
     rules: [
+     {
+        test: /\.svg$/,
+        use: 'file-loader'
+      }
+    ]
+  },
+  module: {
+    rules: [
       {
         test: /.*\.sass$/,
         use: [
@@ -36,19 +44,6 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
-        exclude: {
-          test: [
-            /\.html$/,
-            /\.(js|jsx)$/,
-            /\.css$/,
-            /\.json$/,
-            /\.bmp$/,
-            /\.gif$/,
-            /\.jpe?g$/,
-            /\.png$/,
-            /\.svg$/,
-          ]
-        },
         use: [
           {
             loader: 'babel-loader',
