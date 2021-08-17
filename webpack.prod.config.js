@@ -13,13 +13,13 @@ module.exports = {
     path: __dirname + '/public/assets',
     filename: '[name].js',
     publicPath: '/assets',
+    assetModuleFilename: 'assets/[hash][ext][query]',
   },
   module: {
     rules: [
       {
         test: /\.svg/,
-        type: 'asset/resource',
-        publicPath: '/assets'
+        type: 'asset/resource'
       },
       {
         test: /.*\.sass$/,
