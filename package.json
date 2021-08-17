@@ -30,7 +30,7 @@
     "css-loader": "^6.2.0",
     "datocms-client": "^3.4.13",
     "html-tag": "^2.0.0",
-    "import-glob-loader": "^1.6.3",
+    "import-glob-loader": "^1.1.0",
     "mini-css-extract-plugin": "^2.2.0",
     "node-sass": "^6.0.1",
     "sass-loader": "^12.1.0",
