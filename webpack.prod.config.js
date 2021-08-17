@@ -17,6 +17,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.svg/,
+        type: 'asset/resource'
+      },
+      {
         test: /.*\.sass$/,
         use: [
           {
