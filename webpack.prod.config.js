@@ -19,7 +19,11 @@ module.exports = {
       {
         test: /\.svg/,
         type: 'asset/resource',
-        publicPath: '../'
+        options: {
+          // you can specify a publicPath here
+          // by default it uses publicPath in webpackOptions.output
+          publicPath: '../',
+        },
       },
       {
         test: /.*\.sass$/,
