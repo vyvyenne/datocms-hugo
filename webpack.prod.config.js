@@ -39,8 +39,12 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
-        type: "asset"
-      },
+        use: [
+          {
+            loader: 'file-loader',
+          }
+        ]
+      }
     ]
   },
   plugins: [
