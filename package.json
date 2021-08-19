@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build:hugo": "NODE_ENV=production hugo --config config.prod.toml",
-    "build:assets": "parcel build --dist-dir ./public/ ./assets/js/index.js ",
+    "build:assets": "parcel build ./assets/js/index.js ",
     "build:datocms": "dato dump",
     "build": "npm run build:datocms && npm run build:hugo && npm run build:assets",
     "start:assets": "NODE_ENV=development parcel build ./assets/js/index.js",
