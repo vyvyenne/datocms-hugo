@@ -3,6 +3,7 @@ Paginate = 5
 
 [params]
   env = "production"
+  enableRobotsTXT = true
 
 [[menu.main]]
   name = "Home"
@@ -14,8 +15,6 @@ Paginate = 5
 changefreq = 'monthly'
 filename = 'sitemap.xml'
 priority = 0.5
-
-enableRobotsTXT = true
 
 # datocms:start
 title = "Vivienne Must & other stories "
