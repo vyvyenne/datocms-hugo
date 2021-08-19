@@ -13,6 +13,6 @@ enableRobotsTXT = true
   url = "/"
 
 # datocms:start
-title = "Vivienne Must & other stories "
-languageCode = "en-AU"
+title = "Vivienne Must & other stories"
+languageCode = "en"
 # datocms:end
