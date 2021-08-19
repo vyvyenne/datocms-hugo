@@ -32,7 +32,7 @@
     "@parcel/transformer-sass": "^2.0.0-rc.0",
     "babel-loader": "^8.2.2",
     "concurrently": "^6.2.1",
-    "datocms-client": "^3.4.13",
+    "datocms-client": "^3.4.14",
     "html-tag": "^2.0.0",
     "hugo-installer": "^3.1.0",
     "import-glob-loader": "^1.1.0",
