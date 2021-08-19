@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build:hugo": "NODE_ENV=production hugo --config config.prod.toml",
-    "build:assets": "parcel build ./assets/js/index.js --no-optimize && parcel build ./public/index.html --no-optimize",
+    "build:assets": "parcel build ./assets/js/index.js --no-optimize",
     "build:datocms": "dato dump",
     "build": "npm run build:datocms && npm run build:hugo && npm run build:assets",
     "start:hugo": "hugo -w --config config.dev.toml",
@@ -12,10 +12,10 @@
     "start:livereload": "livereload public -e 'html' -p 5678",
     "start": "mkdir -p content && dato check && concurrently -p \"[{name}]\" -c \"blue,red,green,yellow\" -k -n hugo,webpack,livereload,dato \"npm run start:hugo\" \"npm run start:assets\" \"npm run start:livereload\" \"npm run start:datocms\""
   },
-    "targets": {
-      "default": {
-        "distDir": "./public"
-      }
+  "targets": {
+    "default": {
+      "distDir": "./public"
+    }
   },
   "dependencies": {
     "har-validator": "^5.1.5",
@@ -36,7 +36,8 @@
     "html-tag": "^2.0.0",
     "import-glob-loader": "^1.1.0",
     "node": "^16.6.1",
-    "parcel": "latest"
+    "parcel": "latest",
+    "sharp": "^0.29.0"
   },
   "description": "This repo contains a working static website written with [Hugo](http://gohugo.io/), integrated with content coming from DatoCMS.",
   "repository": {
