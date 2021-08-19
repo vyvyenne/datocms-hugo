@@ -12,10 +12,10 @@
     "start:livereload": "livereload public -e 'html' -p 5678",
     "start": "mkdir -p content && dato check && concurrently -p \"[{name}]\" -c \"blue,red,green,yellow\" -k -n hugo,webpack,livereload,dato \"npm run start:hugo\" \"npm run start:assets\" \"npm run start:livereload\" \"npm run start:datocms\""
   },
-    "targets": {
-      "default": {
-        "distDir": "./public"
-      }
+  "targets": {
+    "default": {
+      "distDir": "./public"
+    }
   },
   "dependencies": {
     "har-validator": "^5.1.5",
