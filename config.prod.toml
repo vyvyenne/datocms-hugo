@@ -1,9 +1,10 @@
 baseurl = "/"
 Paginate = 5
+enableRobotsTXT = true
 
 [params]
   env = "production"
-  enableRobotsTXT = false
+
 
 [[menu.main]]
   name = "Home"
