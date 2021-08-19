@@ -1,11 +1,10 @@
 {
   "name": "vyvyenne-must",
   "version": "1.0.2",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build:hugo": "NODE_ENV=production hugo --config config.prod.toml",
-    "build:assets": "parcel build ./assets/js/index.js ",
+    "build:assets": "parcel build ./assets/js/index.js",
     "build:datocms": "dato dump",
     "build": "npm run build:datocms && npm run build:hugo && npm run build:assets",
     "start:hugo": "hugo -w --config config.dev.toml",
