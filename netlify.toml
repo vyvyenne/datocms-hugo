@@ -5,3 +5,5 @@
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "default-src https:; img-src 'self' https://www.datocms-assets.com https://cdn.rawgit.com; object-src 'none' script-src 'self'; style-src 'self'"
     X-Content-Type-Options = "nosniff"
+    Cache-Control = "max-age=900"
+    X-DNS-Prefetch-Control = "on"
