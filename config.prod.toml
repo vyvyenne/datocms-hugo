@@ -15,6 +15,7 @@ changefreq = 'monthly'
 filename = 'sitemap.xml'
 priority = 0.5
 
+enableRobotsTXT = true
 
 # datocms:start
 title = "Vivienne Must & other stories "
