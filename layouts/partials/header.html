@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {{ if eq .Site.Params.env "production" }}
-      <link rel="stylesheet" href="../../assets/sass/index.sass">
+      <link rel="stylesheet" href="./index.css">
     {{ end }}
     {{ .Site.Data.settings.faviconMetaTags | safeHTML }}
     {{ if isset .Params "seometatags" }}
@@ -53,7 +53,7 @@
               <a href="#" class="hamburger"></a>
             </div>
             <div class="mobile-header__logo">
-              <a href="/index.html">{{ .Site.Data.settings.name }}</a>
+              <a href="/">{{ .Site.Data.settings.name }}</a>
             </div>
           </div>
         </div>
