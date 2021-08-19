@@ -62,7 +62,7 @@ module.exports = (dato, root, i18n) => {
     frontmatter: {
       title: dato.aboutPage.title,
       subtitle: dato.aboutPage.subtitle,
-      photo: dato.aboutPage.photo.url({ w: 800, fm: 'jpg', auto: 'compress' }),
+      photo: dato.aboutPage.photo.url({ w: 800, fm: 'auto', auto: 'compress' }),
       seoMetaTags: toHtml(dato.aboutPage.seoMetaTags),
       menu: { main: { weight: 100 } }
     },
@@ -77,13 +77,13 @@ module.exports = (dato, root, i18n) => {
       dir.createPost(`${work.slug}.md`, 'yaml', {
         frontmatter: {
           title: work.title,
-          coverImage: work.coverImage.url({ w: 450, fm: 'jpg', auto: 'compress' }),
-          image: work.coverImage.url({ fm: 'jpg', auto: 'compress' }),
-          detailImage: work.coverImage.url({ w: 600, fm: 'jpg', auto: 'compress' }),
+          coverImage: work.coverImage.url({ w: 450, fm: 'auto', auto: 'compress' }),
+          image: work.coverImage.url({ fm: 'auto', auto: 'compress' }),
+          detailImage: work.coverImage.url({ w: 600, fm: 'auto', auto: 'compress' }),
           excerpt: work.excerpt,
           seoMetaTags: toHtml(work.seoMetaTags),
           extraImages: work.gallery.map(item =>
-            item.url({ h: 300, fm: 'jpg', auto: 'compress' })
+            item.url({ h: 300, fm: 'auto', auto: 'compress' })
           ),
           weight: index
         },
