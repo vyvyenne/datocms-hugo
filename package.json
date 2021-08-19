@@ -6,7 +6,7 @@
     "build:hugo": "NODE_ENV=production hugo --config config.prod.toml",
     "build:assets": "parcel build ./assets/js/index.js",
     "build:datocms": "dato dump",
-    "build": "npm run build:datocms && npm run build:hugo && npm run build:assets",
+    "build": "npm run build:assets && npm run build:datocms && npm run build:hugo",
     "start:hugo": "hugo -w --config config.dev.toml",
     "start:datocms": "dato dump --watch",
     "start:livereload": "livereload public -e 'html' -p 5678",
