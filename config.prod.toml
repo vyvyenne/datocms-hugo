@@ -3,7 +3,7 @@ Paginate = 5
 
 [params]
   env = "production"
-  enableRobotsTXT = true
+  enableRobotsTXT = false
 
 [[menu.main]]
   name = "Home"
