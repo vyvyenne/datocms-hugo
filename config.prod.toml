@@ -11,7 +11,12 @@ enableRobotsTXT = true
   weight = 1
   identifier = "home"
   url = "/"
-  
+
+[sitemap]
+changefreq = 'monthly'
+filename = 'sitemap.xml'
+priority = 0.5
+
 
 # datocms:start
 title = "Vivienne Must & other stories "
