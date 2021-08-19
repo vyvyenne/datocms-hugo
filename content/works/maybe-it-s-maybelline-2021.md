@@ -1,0 +1,12 @@
+---
+title: Maybe she's born with it maybe it's Maybelline.
+coverImage: 'https://www.datocms-assets.com/53995/1629281137-5.png?w=450&fm=jpg&auto=compress'
+image: 'https://www.datocms-assets.com/53995/1629281137-5.png?fm=jpg&auto=compress'
+detailImage: 'https://www.datocms-assets.com/53995/1629281137-5.png?w=600&fm=jpg&auto=compress'
+excerpt: Vivienne cleans herself up and donned PPE.
+seoMetaTags: '<title></title><meta property="og:title" content="Maybe she''s born with it maybe it''s Maybelline."><meta name="twitter:title" content="Maybe she''s born with it maybe it''s Maybelline."><meta name="description" content="Following an education in Sheffield, Vivienne found the only thing he could do was paint, cry silently, whisper sweet nothings into a filled-to-the-brim tumbler of gin, and slide down the wall of the shower into a slumped wet mess at least once weekly."><meta property="og:description" content="Following an education in Sheffield, Vivienne found the only thing he could do was paint, cry silently, whisper sweet nothings into a filled-to-the-brim tumbler of gin, and slide down the wall of the shower into a slumped wet mess at least once weekly."><meta name="twitter:description" content="Following an education in Sheffield, Vivienne found the only thing he could do was paint, cry silently, whisper sweet nothings into a filled-to-the-brim tumbler of gin, and slide down the wall of the shower into a slumped wet mess at least once weekly."><meta name="robots" content="noindex"><meta name="twitter:site" content="@xxx"><meta name="twitter:card" content="summary"><meta property="article:modified_time" content="2021-08-18T10:05:56Z"><meta property="article:published_time" content="2021-08-16T05:48:11Z"><meta property="article:publisher" content="https://www.facebook.com/xxx"><meta property="og:locale" content="en_EN"><meta property="og:type" content="article"><meta property="og:site_name" content="Vivienne Must & other stories "><meta property="og:image" content="https://www.datocms-assets.com/53995/1629281137-5.png?w=1000&fit=max&fm=jpg"><meta name="twitter:image" content="https://www.datocms-assets.com/53995/1629281137-5.png?w=1000&fit=max&fm=jpg">'
+extraImages: []
+weight: 1
+---
+
+It's a warm day girls you may remove your gloves.
