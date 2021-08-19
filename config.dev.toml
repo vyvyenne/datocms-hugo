@@ -1,5 +1,7 @@
 baseurl = "/"
 Paginate = 5
+enableRobotsTXT = true
+
 
 [params]
   env = "development"
@@ -10,14 +12,7 @@ Paginate = 5
   identifier = "home"
   url = "/"
 
-[sitemap]
-changefreq = 'monthly'
-filename = 'sitemap.xml'
-priority = 0.5
-
-enableRobotsTXT = true
-
 # datocms:start
-title = "Vivienne Must & other stories"
-languageCode = "en"
+title = "Vivienne Must & other stories "
+languageCode = "en-AU"
 # datocms:end
